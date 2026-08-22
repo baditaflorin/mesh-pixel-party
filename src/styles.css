@@ -49,3 +49,84 @@ body,
   opacity: 0.6;
   font-variant-numeric: tabular-nums;
 }
+
+.creative-app {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 5.5rem 1rem 3rem;
+}
+.creative-app h1 {
+  margin: 0.2rem 0;
+  font-size: clamp(2rem, 6vw, 3.5rem);
+}
+.eyebrow {
+  color: var(--mesh-accent);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+.lede,
+.hint,
+.status {
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--mesh-fg) 70%, transparent);
+}
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin: 1.2rem 0;
+}
+.toolbar label {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.toolbar input {
+  width: 2.7rem;
+  height: 2.7rem;
+  padding: 0.15rem;
+}
+button {
+  min-height: 2.75rem;
+  border: 0;
+  border-radius: 0.65rem;
+  padding: 0.6rem 0.85rem;
+  color: #07111f;
+  background: var(--mesh-accent);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.48;
+}
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+.pixel-grid {
+  display: grid;
+  gap: 0.35rem;
+  padding: 0.7rem;
+  border-radius: 1rem;
+  background: #111a28;
+}
+.pixel {
+  min-height: 0;
+  aspect-ratio: 1;
+  padding: 0;
+  border-radius: 0.35rem;
+  border: 1px solid #fff2;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}

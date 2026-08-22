@@ -1,7 +1,7 @@
 {
   "$schema": "https://baditaflorin.github.io/mesh-common/mesh-service.schema.json",
   "id": "mesh-pixel-party",
-  "category": "Social",
-  "subcategory": "Conversation & connection",
-  "useCases": ["friends", "communities", "small groups"]
+  "category": "Games",
+  "subcategory": "Creative & drawing",
+  "useCases": ["game night", "workshops", "small groups"]
 }
